@@ -40,7 +40,7 @@ export default function Home() {
               <p className="mb-4 leading-relaxed" {...props} />
             ),
             code: ({ ...props }) => (
-              <code className="bg-gray-100 px-1 py-0.5 rounded" {...props} />
+              <code className="bg-gray-100 dark:bg-gray-600 px-1 py-0.5 rounded" {...props} />
             ),
             table: ({ ...props }) => (
               <table className="table-auto w-full" {...props} />
@@ -51,7 +51,7 @@ export default function Home() {
             td: ({ ...props }) => (
               <td className="border px-4 py-2" {...props} />
             ),
-            tr: ({ ...props }) => <tr className="bg-gray-100" {...props} />,
+            tr: ({ ...props }) => <tr className="bg-gray-100 dark:bg-gray-600" {...props} />,
           }}
         >
           {readme}

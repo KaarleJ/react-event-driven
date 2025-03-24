@@ -47,7 +47,7 @@ export default function EventDrivenPerformance() {
     setTimeout(() => {
       const dispatchStartTime = performance.now();
 
-      for (let i = 0; i < 100000; i++) {
+      for (let i = 0; i < 10000; i++) {
         dispatchLocation({ row: 2, col: 5 });
         dispatchCount(null);
       }

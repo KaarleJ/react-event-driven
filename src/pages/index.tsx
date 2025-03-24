@@ -1,5 +1,5 @@
 import Markdown from "react-markdown";
-import readme from "../../report.md";
+import readme from "../../REPORT.md";
 import rehypeHighlight from "rehype-highlight";
 import remarkGfm from "remark-gfm";
 import rehypeSanitize from "rehype-sanitize";

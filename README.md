@@ -1,4 +1,4 @@
-# React Component Communication Patterns
+# React Component Communication Patterns (Custom-Topic)
 
 This project demonstrates and compares two approaches for component communication in React applications:
 

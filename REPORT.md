@@ -106,6 +106,8 @@ for (let i = 0; i < 10000; i++) {
 
 ##### Test results
 
+These results were achieved when running the app in a Chromium based browser with a Ryzen 9800X3D processor. 
+
 | Metric | Callbacks | Event-Driven |
 |--------|-----------|--------------|
 | Processing Duration | 0.2-0.5 ms | 0.2-0.5 ms |
